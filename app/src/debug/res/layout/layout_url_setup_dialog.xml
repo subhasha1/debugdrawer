@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_endpoints" />
+
+    <RadioGroup
+        android:id="@+id/rgEndpoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbStaging"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/staging" />
+
+        <RadioButton
+            android:id="@+id/rbCustom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/custom" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etBaseUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textUri"
+        android:text="@string/api_base_url_example" />
+
+    <EditText
+        android:id="@+id/etBaseImageUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:inputType="textUri"
+        android:text="@string/api_base_url_example" />
+</LinearLayout>

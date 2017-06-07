@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clear_logs">Clear Logs</string>
+    <string name="design">Design</string>
+    <string name="scalpel">Scalpel</string>
+    <string name="wireframe">Wireframe</string>
+    <string name="draw_ids">Draw Ids</string>
+    <string name="api_url">Api Urls</string>
+    <string name="view_stetho_logs">From Chrome browser, chrome://inspect</string>
+    <string name="log_image_request">Log Image Requests</string>
+    <string name="show_logs">Show Logs</string>
+    <string name="build_info">Build Info</string>
+    <string name="build_time">Build Time</string>
+    <string name="build_version_code">Version Code</string>
+    <string name="build_version_name">Version Name</string>
+    <string name="git_time">Git Time</string>
+    <string name="git_sha">Git SHA</string>
+    <string name="git_message">Git message</string>
+    <string name="custom">Custom</string>
+    <string name="staging">Staging</string>
+    <string name="endpoint_format">Endpoint: %s</string>
+    <string name="base_url_format" formatted="false"><![CDATA[<b>Url:</b><br>]]></string>
+    <string name="base_image_url_format" formatted="false"><![CDATA[<b>Image Url:</b><br>]]></string>
+    <string name="api_base_url_example">http://somelocaldomain.url</string>
+    <string name="api_base_image_url_example">http://cdn.somelocaldomain.url</string>
+    <string name="set_endpoints">Set Endpoints</string>
+    <string name="network_logs">Network Logs</string>
+
+</resources>
